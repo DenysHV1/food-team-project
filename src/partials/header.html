@@ -1,13 +1,76 @@
-<header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+<header class="sta-header">
+	<div class="container sta-header-inner">
+		<nav class="sta-header-nav">
+			<a class="sta-header-logo" href="./index.html">
+				<svg class="header-logo__svg" width="66" height="52">
+					<use href="./images/icons.svg#icon-food-sta-logo"></use>
+				</svg>
+			</a>
+			<button type="button" class="sta-burger-menu" id="open-menu">
+				<svg class="sta-burger-menu__svg" width="28" height="28">
+					<use href="./images/icons.svg#icon-gg_menu"></use>
+				</svg>
+			</button>
+			<ul class="sta-menu-list">
+				<!-- 1 nav-->
+				<li class="menu-list-item">
+					<a href="./index.html" class="menu-item__link menu-item__link--green"
+						>Home</a
+					>
+				</li>
+				<!-- 2 nav-->
+				<li class="menu-list-item">
+					<a href="#about" class="menu-item__link">About</a>
+				</li>
+				<!-- 3 nav-->
+				<li class="menu-list-item">
+					<a href="#service" class="menu-item__link">Service</a>
+				</li>
+				<!-- 4 nav-->
+				<li class="menu-list-item">
+					<a href="#a-menu" class="menu-item__link">Menu</a>
+				</li>
+				<!-- 5 nav-->
+				<li class="menu-list-item">
+					<a href="#contact" class="menu-item__link">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<button class="button-order" type="button" id="open-modal1">
+			Order Now
+		</button>
+	</div>
+	<div class="burger-menu-container" id="media-container">
+		<div class="burger-menu-container-inner">
+			<button class="close-burger-menu" type="button" id="close-menu">
+				<svg class="close-menu" width="24" height="24">
+					<use href="./images/icons.svg#icon-close-menu"></use>
+				</svg>
+			</button>
+			<ul class="media-menu-list">
+				<!-- 1 nav-->
+				<li class="media-menu-list-item">
+					<a href="./index.html" class="media-menu-item__link home-link--black"
+						>Home</a
+					>
+				</li>
+				<!-- 2 nav-->
+				<li class="media-menu-list-item" id="close__link-2">
+					<a href="#about" class="media-menu-item__link">About</a>
+				</li>
+				<!-- 3 nav-->
+				<li class="media-menu-list-item" id="close__link-3">
+					<a href="#service" class="media-menu-item__link">Service</a>
+				</li>
+				<!-- 4 nav-->
+				<li class="media-menu-list-item" id="close__link-4">
+					<a href="#a-menu" class="media-menu-item__link">Menu</a>
+				</li>
+				<!-- 5 nav-->
+				<li class="media-menu-list-item" id="close__link-5">
+					<a href="#contact" class="media-menu-item__link">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </header>

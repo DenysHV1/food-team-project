@@ -16,7 +16,21 @@
 .benefits-img-gradient {
   display: none;
 }
-
+.icon-block {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rocket-icon {
+  fill: #7eb101;
+}
+.touch_app-icon {
+  fill: #7eb101;
+}
 .benefits-title {
   margin-bottom: 28px;
   font-weight: 700;
@@ -66,11 +80,14 @@
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 106px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .benefits-btn-second {
   background-color: transparent;
   color: #000;
@@ -83,10 +100,21 @@
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.42px;
   min-width: 83px;
   height: 34px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-icon-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-icon {
+  fill: #000;
 }
 
 /* ------media---------- */

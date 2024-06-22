@@ -5,19 +5,32 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+	<link
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+	href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+	rel="stylesheet"
+/>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
+    <load src="partials/header.html" />
+<main>
+	<load src="partials/hero.html" />
+	<load src="partials/about.html" />
+	<load src="partials/favorites.html" />
+	<load src="partials/customars.html" />
+	<load src="partials/subscribe.html" />
+</main>
+	<load src="partials/footer.html" />
+	<load src="partials/modal.html" />
 
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
 
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
+
 
     <script type="module" src="./main.js"></script>
   </body>

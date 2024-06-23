@@ -1,5 +1,4 @@
 # Vanilla App Template
-
 Ten projekt został zbudowany przy użyciu Vite. Aby zapoznać się i skonfigurować
 dodatkowe funkcje [zapoznaj się z dokumentacją](https://vitejs.dev/).
 

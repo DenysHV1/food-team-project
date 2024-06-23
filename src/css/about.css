@@ -87,7 +87,11 @@
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.benefits-btn:hover {
+  background-color: #bbf330;
+  border: none;
+  padding: 10px 22px;
+}
 .benefits-btn-second {
   background-color: transparent;
   color: #000;

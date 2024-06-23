@@ -1,0 +1,71 @@
+.enjoy-food-inner {
+	position: relative;
+}
+
+.enjoy-food-left {
+	padding-top: 159px;
+	padding-bottom: 219px;
+}
+
+.enjoy-food__title {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 120%;
+	max-width: 502.42px;
+	margin-bottom: 28px;
+}
+
+.enjoy-food__text {
+	font-size: 16px;
+	line-height: 150%;
+	max-width: 511px;
+	margin-bottom: 40px;
+}
+
+.button-order-enjoy {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+	flex-shrink: 0;
+	border-radius: 30px;
+	width: 98px;
+	height: 32px;
+	background-color: #bbf330;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 150%;
+	text-align: right;
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+		background-color 250ms linear;
+}
+
+.button-order:hover {
+	transform: scale(1.15);
+	background-color: #ffe450;
+}
+.button-order:focus {
+	transform: scale(1.15);
+	background-color: #ffe450;
+}
+
+.enjoy-food-right {
+	position: absolute;
+	right: 0;
+	top: 14px;
+	max-width: 45.313vw;
+	background: transparent;
+	border-radius: 50%;
+	border: 26px solid #ffe550;
+}
+
+@media (max-width: 1110px) {
+	.enjoy-food-right {
+		position: absolute;
+		right: 16px;
+		top: 82px;
+		max-width: 40.27vw;
+	}
+}
